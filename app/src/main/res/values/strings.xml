@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Profile Manager</string>
+    <string name="page_title">Sports Team Manager</string>
+    <string name="team_name">Team Name</string>
+    <string name="team_address">Team Address</string>
+    <string name="team_name_hint">Please enter a team name</string>
+    <string name="team_address_hint">Please enter a postal code</string>
+    <string name="gm_btn">Open in Google MaPS</string>
+    <string name="select_avatar">Select a new avatar</string>
+</resources>
