@@ -38,21 +38,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:onClick="SetTeamIcon"
+                tools:srcCompat="@tools:sample/avatars"
+                android:src="@drawable/flag_ca" />
+
 
             <ImageView
                 android:id="@+id/img_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:onClick="SetTeamIcon"
+                tools:srcCompat="@tools:sample/avatars"
+                android:src="@drawable/flag_eg"/>
 
             <ImageView
                 android:id="@+id/img_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:onClick="SetTeamIcon"
+                tools:srcCompat="@tools:sample/avatars"
+                android:src="@drawable/flag_fr"/>
         </TableRow>
 
         <TableRow
@@ -65,20 +72,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
-                android:layout_marginHorizontal="5dp"/>
+                android:onClick="SetTeamIcon"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/flag_jp"/>
+
 
             <ImageView
                 android:id="@+id/img_11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
-                android:layout_marginHorizontal="5dp"/>
+                android:onClick="SetTeamIcon"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/flag_sp"/>
 
             <ImageView
                 android:id="@+id/img_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
+                android:src="@drawable/flag_tr"
+                android:onClick="SetTeamIcon"
                 android:layout_marginHorizontal="5dp"/>
         </TableRow>
 
@@ -92,6 +106,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
+                android:onClick="SetTeamIcon"
+                android:src="@drawable/flag_uk"
                 android:layout_marginHorizontal="5dp"/>
 
             <ImageView
@@ -99,6 +115,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
+                android:onClick="SetTeamIcon"
+                android:src="@drawable/flag_us"
                 android:layout_marginHorizontal="5dp"/>
 
             <ImageView
@@ -106,6 +124,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars"
+                android:onClick="SetTeamIcon"
+                android:src="@drawable/flag_kr"
                 android:layout_marginHorizontal="5dp"/>
         </TableRow>
 
