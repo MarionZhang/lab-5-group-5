@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
                                     break;
                                 default:
                                     drawableName = "flag_kr";
+                                    break;
                             }
                             int resID = getResources().getIdentifier(drawableName,"drawable", getPackageName());
                             avatar.setImageResource(resID);

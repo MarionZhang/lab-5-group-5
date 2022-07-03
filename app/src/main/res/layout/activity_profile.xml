@@ -6,26 +6,21 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_width="1119dp"
+        android:layout_height="93dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintStart_toEndOf="@+id/tableLayout"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/avatar_textview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginVertical="10dp"
-            android:gravity="center"
-            android:text="@string/select_avatar" />
     </LinearLayout>
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="1608dp"
+        android:layout_height="2442dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
@@ -38,9 +33,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                tools:srcCompat="@tools:sample/avatars"
-                android:src="@drawable/flag_ca" />
+                tools:srcCompat="@drawable/flag_ca" />
 
 
             <ImageView
@@ -48,18 +43,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                tools:srcCompat="@tools:sample/avatars"
-                android:src="@drawable/flag_eg"/>
+                tools:srcCompat="@drawable/flag_eg" />
 
             <ImageView
                 android:id="@+id/img_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                tools:srcCompat="@tools:sample/avatars"
-                android:src="@drawable/flag_fr"/>
+                tools:srcCompat="@drawable/flag_fr" />
         </TableRow>
 
         <TableRow
@@ -71,29 +66,29 @@
                 android:id="@+id/img_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
-                android:onClick="SetTeamIcon"
                 android:layout_marginHorizontal="5dp"
-                android:src="@drawable/flag_jp"/>
+                android:contentDescription="@string/app_name"
+                android:onClick="SetTeamIcon"
+                tools:srcCompat="@drawable/flag_jp" />
 
 
             <ImageView
                 android:id="@+id/img_11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
-                android:onClick="SetTeamIcon"
                 android:layout_marginHorizontal="5dp"
-                android:src="@drawable/flag_sp"/>
+                android:contentDescription="@string/app_name"
+                android:onClick="SetTeamIcon"
+                tools:srcCompat="@drawable/flag_sp" />
 
             <ImageView
                 android:id="@+id/img_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
-                android:src="@drawable/flag_tr"
+                android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                android:layout_marginHorizontal="5dp"/>
+                tools:srcCompat="@drawable/flag_tr" />
         </TableRow>
 
         <TableRow
@@ -103,32 +98,46 @@
 
             <ImageView
                 android:id="@+id/img_20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
+                android:layout_width="551dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                android:src="@drawable/flag_uk"
-                android:layout_marginHorizontal="5dp"/>
+                tools:srcCompat="@drawable/flag_uk" />
 
             <ImageView
                 android:id="@+id/img_21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
+                android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                android:src="@drawable/flag_us"
-                android:layout_marginHorizontal="5dp"/>
+                tools:srcCompat="@drawable/flag_us" />
 
             <ImageView
                 android:id="@+id/img_22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
+                android:layout_marginHorizontal="5dp"
+                android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
-                android:src="@drawable/flag_kr"
-                android:layout_marginHorizontal="5dp"/>
+                tools:srcCompat="@drawable/flag_kr" />
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/avatar_textview"
+        android:layout_width="1593dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="@string/select_avatar"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
