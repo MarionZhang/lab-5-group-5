@@ -5,20 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="1119dp"
-        android:layout_height="93dp"
-        android:orientation="vertical"
-        app:layout_constraintStart_toEndOf="@+id/tableLayout"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </LinearLayout>
-
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="1608dp"
-        android:layout_height="2442dp"
+        android:layout_width="416dp"
+        android:layout_height="500dp"
         android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -30,18 +20,19 @@
 
             <ImageView
                 android:id="@+id/img_00"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
+                tools:ignore="DuplicateSpeakableTextCheck"
                 tools:srcCompat="@drawable/flag_ca" />
 
 
             <ImageView
                 android:id="@+id/img_01"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -49,8 +40,8 @@
 
             <ImageView
                 android:id="@+id/img_02"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -64,8 +55,8 @@
 
             <ImageView
                 android:id="@+id/img_10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -74,8 +65,8 @@
 
             <ImageView
                 android:id="@+id/img_11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -83,8 +74,8 @@
 
             <ImageView
                 android:id="@+id/img_12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -98,8 +89,8 @@
 
             <ImageView
                 android:id="@+id/img_20"
-                android:layout_width="551dp"
-                android:layout_height="match_parent"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -107,8 +98,8 @@
 
             <ImageView
                 android:id="@+id/img_21"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -116,8 +107,8 @@
 
             <ImageView
                 android:id="@+id/img_22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:layout_marginHorizontal="5dp"
                 android:contentDescription="@string/app_name"
                 android:onClick="SetTeamIcon"
@@ -128,8 +119,8 @@
 
     <TextView
         android:id="@+id/avatar_textview"
-        android:layout_width="1593dp"
-        android:layout_height="66dp"
+        android:layout_width="363dp"
+        android:layout_height="83dp"
         android:layout_gravity="center"
         android:layout_marginVertical="10dp"
         android:layout_marginStart="8dp"
